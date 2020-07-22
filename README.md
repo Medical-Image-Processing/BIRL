@@ -209,9 +209,9 @@ You can build it on your own, note it takes lots of time, be prepared.
 ```bash
 git clone <git-repository>
 docker image build \
-    -t birl:py3.6 \
+    -t birl:py3.8 \
     -f bm_experiments/Dockerfile \
-    --build-arg PYTHON_VERSION=3.6 \
+    --build-arg PYTHON_VERSION=3.8 \
     .
 ```
 
